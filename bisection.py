@@ -52,7 +52,6 @@ def get_function():
 
     func_str = input("Enter your function: ")
 
-    # Function to replace function names for math expressions
     def replace_functions(expr):
         return (
             expr.replace("sin(", "math.sin(")
@@ -73,7 +72,6 @@ def get_function():
     return func
 
 
-# Input for the bisection method
 func = get_function()
 a = float(input("Enter lower bound (a): "))
 b = float(input("Enter upper bound (b): "))
