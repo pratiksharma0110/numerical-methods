@@ -83,4 +83,4 @@ error = max_error(n)
 
 root = false_position(func, a, b, error)
 if root is not None:
-    print(f"∴ The required approximated root: {root:.3f}")
+    print(f"∴ The required approximated root: {root:.{3}f}")
